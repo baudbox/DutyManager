@@ -1,0 +1,36 @@
+<TaskerData sr="" dvi="1" tv="5.0u6m">
+	<Task sr="task566">
+		<cdate>1479848288798</cdate>
+		<edate>1493457307507</edate>
+		<id>566</id>
+		<nme>DutyManager - Text Message Battery Level</nme>
+		<Action sr="act0" ve="7">
+			<code>410</code>
+			<label>Log file</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">DutyManager/CallForwardingTask.log</Str>
+			<Str sr="arg1" ve="3">%TIMES - Battery status low (%BATT%)</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DebugLogFile</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>41</code>
+			<label>Forward others sms</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%Contactnumber</Str>
+			<Str sr="arg1" ve="3">DutyManager message :
+Phone battery level is very low (%BATT%). Please plug your phone as soon as you can.</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_device_access_battery</nme>
+		</Img>
+	</Task>
+</TaskerData>

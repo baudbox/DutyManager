@@ -1,0 +1,270 @@
+<TaskerData sr="" dvi="1" tv="5.0u6m">
+	<dmetric>720.0,1198.0</dmetric>
+	<Scene sr="sceneDutyManager - ACCESSIBILITY">
+		<cdate>1421116300013</cdate>
+		<edate>1485755508016</edate>
+		<gridSize>10</gridSize>
+		<heightLand>680</heightLand>
+		<heightPort>1210</heightPort>
+		<nme>DutyManager - ACCESSIBILITY</nme>
+		<widthLand>680</widthLand>
+		<widthPort>720</widthPort>
+		<RectElement sr="elements0">
+			<flags>4</flags>
+			<geom>0,10,720,140,51,122,616,150</geom>
+			<Str sr="arg0" ve="3">HeaderShadow11</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FF212121</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements1">
+			<flags>4</flags>
+			<geom>0,0,720,130,0,0,680,252</geom>
+			<Str sr="arg0" ve="3">Header Background1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">%DarkPrimaryColor</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>30,20,609,90,80,63,598,139</geom>
+			<Str sr="arg0" ve="3">Header Main Title</Str>
+			<Str sr="arg1" ve="3">&lt;b&gt;Accessibility Service&lt;/b&gt;</Str>
+			<Int sr="arg2">
+				<var>%SizeTextTitle</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3">%FontTitle</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<RectElement sr="elements3">
+			<flags>4</flags>
+			<geom>32,500,668,190,68,406,583,116</geom>
+			<Str sr="arg0" ve="3">Shadow Version</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">%DarkPrimaryColor</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="6"/>
+			<Int sr="arg7" val="2"/>
+		</RectElement>
+		<TextElement sr="elements4" ve="3">
+			<clickTask>531</clickTask>
+			<flags>4</flags>
+			<geom>130,250,569,430,140,280,500,370</geom>
+			<Str sr="arg0" ve="3">About Text</Str>
+			<Str sr="arg1" ve="3">&lt;br/&gt;&lt;b&gt;Accessibility service for DutyManager is not enabled.&lt;/b&gt; &lt;br/&gt;&lt;br/&gt;In order to work properly, please enable it</Str>
+			<Int sr="arg2">
+				<var>%SizeTextDescription</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">%FontDescription</Str>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="2"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FFFFF6F6</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="4"/>
+				<Str sr="arg5" ve="3">#FFFF0000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<RectElement sr="elements5">
+			<flags>4</flags>
+			<geom>250,770,219,80,68,406,583,116</geom>
+			<Str sr="arg0" ve="3">Shadow Bouton On</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">%DarkPrimaryColor</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="10"/>
+			<Int sr="arg7" val="2"/>
+		</RectElement>
+		<TextElement sr="elements6" ve="3">
+			<clickTask>542</clickTask>
+			<flags>4</flags>
+			<geom>250,730,220,110,250,900,220,110</geom>
+			<Str sr="arg0" ve="3">Text Ok</Str>
+			<Str sr="arg1" ve="3">&lt;b&gt;OK&lt;/b&gt;</Str>
+			<Int sr="arg2">
+				<var>%SizeTextSection</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFF6F6</Str>
+			<Str sr="arg5" ve="3">%FontMenu</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%PrimaryColor</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<RectElement sr="elements7">
+			<flags>4</flags>
+			<geom>32,250,100,430,20,250,109,430</geom>
+			<Str sr="arg0" ve="3">Rectangle5</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFF0000</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="4"/>
+			<Str sr="arg5" ve="3">%InactiveColor</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements8" ve="3">
+			<clickTask>396</clickTask>
+			<flags>4</flags>
+			<geom>140,420,549,250,140,280,500,370</geom>
+			<Str sr="arg0" ve="3">About Text1</Str>
+			<Str sr="arg1" ve="3">1) Clic on this card to directly access to Accessibility settings&lt;br/&gt;&lt;br/&gt;
+2) Set it up&lt;br/&gt;&lt;br/&gt;
+3) Open again DutyManager app&lt;br/&gt;&lt;br/&gt;
+Thank you</Str>
+			<Int sr="arg2">
+				<var>%SizeTextDescription</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">%FontDescription</Str>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="2"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FFFF0000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements9" ve="3">
+			<flags>4</flags>
+			<geom>40,430,80,80,240,750,130,90</geom>
+			<Str sr="arg0" ve="3">Icon Notify</Str>
+			<Str sr="arg1" ve="3"></Str>
+			<Int sr="arg2">
+				<var>%SizeTextTitle</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3">Tasker/fonts/MaterialIcons-Regular.ttf</Str>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">%BackgroundColor</Str>
+			<Int sr="arg3" val="2"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task396">
+		<cdate>1478636354282</cdate>
+		<edate>1478636354282</edate>
+		<id>396</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>236</code>
+			<label>Show Accessibility settings</label>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - ACCESSIBILITY</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - MAIN</Str>
+		</Action>
+	</Task>
+	<Task sr="task531">
+		<cdate>1478636354282</cdate>
+		<edate>1478636354282</edate>
+		<id>531</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>236</code>
+			<label>Show Accessibility settings</label>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - ACCESSIBILITY</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - MAIN</Str>
+		</Action>
+	</Task>
+	<Task sr="task542">
+		<cdate>1478716238777</cdate>
+		<edate>1478716238777</edate>
+		<id>542</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - ACCESSIBILITY</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>47</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">DutyManager - MAIN</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="4"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>

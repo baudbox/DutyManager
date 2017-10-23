@@ -1,0 +1,1155 @@
+<TaskerData sr="" dvi="1" tv="5.0u6m">
+	<Task sr="task449">
+		<cdate>1476774120656</cdate>
+		<edate>1508790021945</edate>
+		<id>449</id>
+		<nme>DutyManager - Show Scene MAIN</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>Put "FREE" or nothing</label>
+			<Str sr="arg0" ve="3">%DutyManagerVersion</Str>
+			<Str sr="arg1" ve="3"> </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>Debug</label>
+			<Str sr="arg0" ve="3">%Debug</Str>
+			<Str sr="arg1" ve="3">false</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Debug</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SizeTextSection</Str>
+			<Str sr="arg1" ve="3">22</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SizeTextDescription</Str>
+			<Str sr="arg1" ve="3">19</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>43</code>
+			<label>Samsung S4mini</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%dpidevices</lhs>
+					<op>2</op>
+					<rhs>2*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SizeTextTitle</Str>
+			<Str sr="arg1" ve="3">28</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SizeTextSection</Str>
+			<Str sr="arg1" ve="3">22</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SizeTextDescription</Str>
+			<Str sr="arg1" ve="3">19</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>43</code>
+			<label>Sony Z3c</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%dpidevices</lhs>
+					<op>2</op>
+					<rhs>3*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SizeTextTitle</Str>
+			<Str sr="arg1" ve="3">24</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SizeTextSection</Str>
+			<Str sr="arg1" ve="3">18</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SizeTextDescription</Str>
+			<Str sr="arg1" ve="3">15</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<label>DebugLogFile</label>
+			<Str sr="arg0" ve="3">%DebugLogFile</Str>
+			<Str sr="arg1" ve="3">false</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DebugLogFile</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>43</code>
+			<label>Samsung S4</label>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%dpidevices</lhs>
+					<op>2</op>
+					<rhs>4*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%dpidevices</lhs>
+					<op>2</op>
+					<rhs>5*</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%dpidevices</lhs>
+					<op>2</op>
+					<rhs>6*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SizeTextTitle</Str>
+			<Str sr="arg1" ve="3">18</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SizeTextSection</Str>
+			<Str sr="arg1" ve="3">12</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SizeTextDescription</Str>
+			<Str sr="arg1" ve="3">9</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>547</code>
+			<label>Color of inactive field</label>
+			<Str sr="arg0" ve="3">%InactiveColor</Str>
+			<Str sr="arg1" ve="3">#d32f2f</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>547</code>
+			<label>Color of active field</label>
+			<Str sr="arg0" ve="3">%ActiveColor</Str>
+			<Str sr="arg1" ve="3">#8bc34a</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>547</code>
+			<label>Color of header background</label>
+			<Str sr="arg0" ve="3">%DarkPrimaryColor</Str>
+			<Str sr="arg1" ve="3">#303F9F</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>547</code>
+			<label>Color of background</label>
+			<Str sr="arg0" ve="3">%BackgroundColor</Str>
+			<Str sr="arg1" ve="3">#D2D2D2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>547</code>
+			<label>Color of field description</label>
+			<Str sr="arg0" ve="3">%FieldDescriptionColor</Str>
+			<Str sr="arg1" ve="3">#F9F9F9</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>49</code>
+			<label>START</label>
+			<Str sr="arg0" ve="3">DutyManager - MAIN</Str>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>547</code>
+			<label>Color of field to add</label>
+			<Str sr="arg0" ve="3">%FieldColor</Str>
+			<Str sr="arg1" ve="3">#FAFAFA</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>547</code>
+			<label>Color of add button and section text</label>
+			<Str sr="arg0" ve="3">%PrimaryColor</Str>
+			<Str sr="arg1" ve="3">#3F51B5</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>547</code>
+			<label>Color of accent button</label>
+			<Str sr="arg0" ve="3">%AccentColor</Str>
+			<Str sr="arg1" ve="3">#FF4081</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>547</code>
+			<label>Color of accent light button</label>
+			<Str sr="arg0" ve="3">%AccentColorLight</Str>
+			<Str sr="arg1" ve="3">#81FF9DC0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>547</code>
+			<label>Color of click selection</label>
+			<Str sr="arg0" ve="3">%ClickHighlightColor</Str>
+			<Str sr="arg1" ve="3">#d32f2f</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>46</code>
+			<label>START</label>
+			<Str sr="arg0" ve="3">DutyManager - MAIN</Str>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PENABLED</lhs>
+					<op>3</op>
+					<rhs>*Calendar Entry Profile*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%DutyManager</Str>
+			<Str sr="arg1" ve="3">OFF</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">DutyManager - Element Toggle</Str>
+			<Int sr="arg1" val="50"/>
+			<Str sr="arg2" ve="3">DutyManager - MAIN</Str>
+			<Str sr="arg3" ve="3">MaterialToggle1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act39" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PENABLED</lhs>
+					<op>2</op>
+					<rhs>*Calendar Entry Profile*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>348</code>
+			<Int sr="arg0" val="2"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">%dpidevices</Str>
+		</Action>
+		<Action sr="act40" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%DutyManager</Str>
+			<Str sr="arg1" ve="3">ON</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act42" ve="7">
+			<code>342</code>
+			<se>false</se>
+			<Int sr="arg0" val="4"/>
+			<Str sr="arg1" ve="3">DutyManager</Str>
+			<Str sr="arg2" ve="3">%folderexist</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act43" ve="7">
+			<code>409</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">DutyManager</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%folderexist</lhs>
+					<op>3</op>
+					<rhs>dir</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act44" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Contactlist(#)</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act45" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%IsListExist</Str>
+			<Str sr="arg1" ve="3">YES</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act46" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%MenuIfListSet</Str>
+			<Str sr="arg1" ve="3">Manage Contact List </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act47" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act48" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%IsListExist</Str>
+			<Str sr="arg1" ve="3">NO</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act49" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%MenuIfListSet</Str>
+			<Str sr="arg1" ve="3">Create Contact List </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%FontTitle</Str>
+			<Str sr="arg1" ve="3">/system/fonts/Roboto-Bold.ttf</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act50" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act51" ve="7">
+			<code>547</code>
+			<label>ActiveSchedule</label>
+			<Str sr="arg0" ve="3">%ActiveSchedule</Str>
+			<Str sr="arg1" ve="3">Forward INACTIVE</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ActiveSchedule</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act52" ve="7">
+			<code>547</code>
+			<label>PersistentNotification</label>
+			<Str sr="arg0" ve="3">%PersistentNotification</Str>
+			<Str sr="arg1" ve="3">OFF</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PersistentNotification</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act53" ve="7">
+			<code>547</code>
+			<label>UssdCode2ActivateForward1</label>
+			<Str sr="arg0" ve="3">%UssdCode2ActivateForward1</Str>
+			<Str sr="arg1" ve="3">*21*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%UssdCode2ActivateForward1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%UssdCode2ActivateForward1</lhs>
+					<op>4</op>
+					<rhs>\%new_val</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act54" ve="7">
+			<code>547</code>
+			<label>UssdCode2ActivateForward2</label>
+			<Str sr="arg0" ve="3">%UssdCode2ActivateForward2</Str>
+			<Str sr="arg1" ve="3">#</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%UssdCode2ActivateForward2</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%UssdCode2ActivateForward2</lhs>
+					<op>4</op>
+					<rhs>\%new_val</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act55" ve="7">
+			<code>547</code>
+			<label>UssdCode2CheckForward</label>
+			<Str sr="arg0" ve="3">%UssdCode2CheckForward</Str>
+			<Str sr="arg1" ve="3">*#21#</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%UssdCode2CheckForward</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%UssdCode2CheckForward</lhs>
+					<op>4</op>
+					<rhs>\%new_val</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act56" ve="7">
+			<code>547</code>
+			<label>UssdCode2CancelForward</label>
+			<Str sr="arg0" ve="3">%UssdCode2CancelForward</Str>
+			<Str sr="arg1" ve="3">##21#</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%UssdCode2CancelForward</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%UssdCode2CancelForward</lhs>
+					<op>4</op>
+					<rhs>\%new_val</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act57" ve="7">
+			<code>547</code>
+			<label>RemoteTextMessageReboot</label>
+			<Str sr="arg0" ve="3">%RemoteTextMessageReboot</Str>
+			<Str sr="arg1" ve="3">#3615#REBOOT</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%RemoteTextMessageReboot</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%RemoteTextMessageReboot</lhs>
+					<op>4</op>
+					<rhs>\%new_val</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act58" ve="7">
+			<code>547</code>
+			<label>TextMessageStatus</label>
+			<Str sr="arg0" ve="3">%TextMessageStatus</Str>
+			<Str sr="arg1" ve="3">ON</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act59" ve="7">
+			<code>547</code>
+			<label>ActiveSchedule</label>
+			<Str sr="arg0" ve="3">%ActiveSchedule</Str>
+			<Str sr="arg1" ve="3">Forward inactive</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%FontMenu</Str>
+			<Str sr="arg1" ve="3">/system/fonts/Roboto-Bold.ttf</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act60" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DutyManagerVersion</lhs>
+					<op>3</op>
+					<rhs>*FREE*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act61" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">DutyManager - MAIN</Str>
+			<Str sr="arg1" ve="3">Text - Free Version</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act62" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act63" ve="7">
+			<code>47</code>
+			<label>Launch Main scene</label>
+			<Str sr="arg0" ve="3">DutyManager - MAIN</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act64" ve="7">
+			<code>123</code>
+			<label>Test Root</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">su -v</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%resulttestroot</Str>
+			<Str sr="arg4" ve="3">%resulterrorroot</Str>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act65" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%resulttestroot</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act66" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%IsRooted</Str>
+			<Str sr="arg1" ve="3">YES</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act67" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act68" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%IsRooted</Str>
+			<Str sr="arg1" ve="3">NO</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act69" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%FontDescription</Str>
+			<Str sr="arg1" ve="3">/system/fonts/Roboto-Regular.ttf</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act70" ve="7">
+			<code>664</code>
+			<label>List AccessibilityManager list</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">accessibility</Str>
+			<Str sr="arg1" ve="3">CONTEXT</Str>
+			<Str sr="arg2" ve="3">getSystemService
+{Object} (String)</Str>
+			<Str sr="arg3" ve="3">accessibility</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act71" ve="7">
+			<code>664</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%Service_list</Str>
+			<Str sr="arg1" ve="3">accessibility</Str>
+			<Str sr="arg2" ve="3">getEnabledAccessibilityServiceList {List} (int)</Str>
+			<Str sr="arg3" ve="3">-1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act72" ve="7">
+			<code>410</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">DutyManager/debug.acc</Str>
+			<Str sr="arg1" ve="3">%Service_list
+==============</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act73" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Service_list</lhs>
+					<op>3</op>
+					<rhs>*fr.baudbox.apps*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act74" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AccessibilityServiceColor</Str>
+			<Str sr="arg1" ve="3">%InactiveColor</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act75" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AccessibilityService</Str>
+			<Str sr="arg1" ve="3">NO</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act76" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">DutyManager - ACCESSIBILITY</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act77" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act78" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AccessibilityServiceColor</Str>
+			<Str sr="arg1" ve="3">%ActiveColor</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act79" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AccessibilityService</Str>
+			<Str sr="arg1" ve="3">YES</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>37</code>
+			<label>DesireS</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%dpidevices</lhs>
+					<op>2</op>
+					<rhs>1*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act80" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act81" ve="7">
+			<code>547</code>
+			<label>Icon binary delete</label>
+			<Str sr="arg0" ve="3">%icondelete</Str>
+			<Str sr="arg1" ve="3">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
+AABJRU5ErkJggg==
+
+</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act82" ve="7">
+			<code>775</code>
+			<Str sr="arg0" ve="3">%icondelete</Str>
+			<Str sr="arg1" ve="3">DutyManager/.icondelete.png</Str>
+		</Action>
+		<Action sr="act83" ve="7">
+			<code>547</code>
+			<label>Text message PAID version</label>
+			<Str sr="arg0" ve="3">%TextMessage</Str>
+			<Str sr="arg1" ve="3">Dear Contact, your shift is starting now. You receive this text message as confirmation. Thank you.</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>And</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%TextMessage</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%TextMessage</lhs>
+					<op>4</op>
+					<rhs>\%new_val</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%DutyManagerVersion</lhs>
+					<op>3</op>
+					<rhs>*FREE*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act84" ve="7">
+			<code>547</code>
+			<label>Text message FREE version</label>
+			<Str sr="arg0" ve="3">%TextMessage</Str>
+			<Str sr="arg1" ve="3">Shift starting. Please consider to buy DutyManager app to support the dev and unlock some features. Thank you. https://apps.baudbox.fr/</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>And</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%TextMessage</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%TextMessage</lhs>
+					<op>4</op>
+					<rhs>\%new_val</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%DutyManagerVersion</lhs>
+					<op>2</op>
+					<rhs>*FREE*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act85" ve="7">
+			<code>547</code>
+			<label>RemoteTextMessageTakeOver</label>
+			<Str sr="arg0" ve="3">%RemoteTextMessageTakeOver</Str>
+			<Str sr="arg1" ve="3">TAKEOVER</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%RemoteTextMessageTakeOver</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%RemoteTextMessageTakeOver</lhs>
+					<op>5</op>
+					<rhs>\%new_val</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act86" ve="7">
+			<code>547</code>
+			<label>RemoteTextMessageAddContact</label>
+			<Str sr="arg0" ve="3">%RemoteTextMessageAddContact</Str>
+			<Str sr="arg1" ve="3">ADD</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%%RemoteTextMessageAddContact</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%%RemoteTextMessageAddContact</lhs>
+					<op>5</op>
+					<rhs>\%new_val</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act87" ve="7">
+			<code>547</code>
+			<label>RemoteTextMessageStatus</label>
+			<Str sr="arg0" ve="3">%RemoteTextMessageStatus</Str>
+			<Str sr="arg1" ve="3">STATUS</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%RemoteTextMessageStatus</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%RemoteTextMessageStatus</lhs>
+					<op>5</op>
+					<rhs>\%new_val</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act88" ve="7">
+			<code>547</code>
+			<label>Reboot status</label>
+			<Str sr="arg0" ve="3">%DutyManagerDeviceRebooted</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SizeTextTitle</Str>
+			<Str sr="arg1" ve="3">28</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_aaa_nixx_button</nme>
+		</Img>
+	</Task>
+</TaskerData>

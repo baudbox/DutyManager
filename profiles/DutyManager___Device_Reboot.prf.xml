@@ -1,0 +1,71 @@
+<TaskerData sr="" dvi="1" tv="5.0u6m">
+	<Profile sr="prof437" ve="2">
+		<cdate>1483343980214</cdate>
+		<clp>true</clp>
+		<edate>1508790040426</edate>
+		<id>437</id>
+		<limit>true</limit>
+		<mid0>442</mid0>
+		<nme>DutyManager - Device Reboot</nme>
+		<Event sr="con0" ve="2">
+			<code>411</code>
+			<pri>0</pri>
+		</Event>
+	</Profile>
+	<Task sr="task442">
+		<cdate>1483343997946</cdate>
+		<edate>1503519082981</edate>
+		<id>442</id>
+		<nme>DutyManager - Device Boot Status</nme>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DutyManagerDeviceRebooted</lhs>
+					<op>2</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%DutyManagerDeviceRebooted</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>41</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%SMSRF1</Str>
+			<Str sr="arg1" ve="3">Device has been rebooted successfully. DutyManager is now up and running (%TIME)</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>410</code>
+			<label>Log file</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">DutyManager/CallForwardingTask.log</Str>
+			<Str sr="arg1" ve="3">%TIMES - Device has been rebooted</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DebugLogFile</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_ab_aaa_ext_io</nme>
+		</Img>
+	</Task>
+</TaskerData>

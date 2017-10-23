@@ -1,0 +1,970 @@
+<TaskerData sr="" dvi="1" tv="5.0u6m">
+	<dmetric>720.0,1198.0</dmetric>
+	<Scene sr="sceneDutyManager - 3 LINES MENU">
+		<cdate>1476705373924</cdate>
+		<edate>1485157866099</edate>
+		<gridSize>10</gridSize>
+		<heightLand>680</heightLand>
+		<heightPort>1210</heightPort>
+		<nme>DutyManager - 3 LINES MENU</nme>
+		<widthLand>680</widthLand>
+		<widthPort>720</widthPort>
+		<RectElement sr="elements0">
+			<flags>4</flags>
+			<geom>310,0,140,1210,68,406,583,116</geom>
+			<Str sr="arg0" ve="3">Shadow Header3</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%DarkPrimaryColor</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="6"/>
+			<Int sr="arg7" val="2"/>
+		</RectElement>
+		<RectElement sr="elements1">
+			<flags>4</flags>
+			<geom>0,0,426,1210,0,0,457,680</geom>
+			<strokeTask>448</strokeTask>
+			<Str sr="arg0" ve="3">Menu Background</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<StrokeFilter sr="filter2">
+				<dir>Left</dir>
+			</StrokeFilter>
+		</RectElement>
+		<TextElement sr="elements10" ve="3">
+			<clickTask>553</clickTask>
+			<flags>4</flags>
+			<geom>70,1010,349,60,95,337,409,63</geom>
+			<Str sr="arg0" ve="3">Text About</Str>
+			<Str sr="arg1" ve="3">About</Str>
+			<Int sr="arg2">
+				<var>%SizeTextSection</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">%FontMenu</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements11" ve="3">
+			<flags>4</flags>
+			<geom>10,0,399,80,80,63,598,139</geom>
+			<Str sr="arg0" ve="3">Header Main Title11</Str>
+			<Str sr="arg1" ve="3">&lt;b&gt;&lt;/b&gt;</Str>
+			<Int sr="arg2">
+				<var>%SizeTextTitle</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements12" ve="3">
+			<clickTask>554</clickTask>
+			<flags>4</flags>
+			<geom>70,500,349,60,95,337,409,63</geom>
+			<Str sr="arg0" ve="3">Text SMS Settings</Str>
+			<Str sr="arg1" ve="3">Text settings</Str>
+			<Int sr="arg2">
+				<var>%SizeTextSection</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">%FontMenu</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements13" ve="3">
+			<clickTask>556</clickTask>
+			<flags>4</flags>
+			<geom>70,610,349,60,95,337,409,63</geom>
+			<Str sr="arg0" ve="3">Text ROOT settings</Str>
+			<Str sr="arg1" ve="3">Root settings</Str>
+			<Int sr="arg2">
+				<var>%SizeTextSection</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">%FontMenu</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements14" ve="3">
+			<flags>4</flags>
+			<geom>0,280,69,60,0,280,69,60</geom>
+			<Str sr="arg0" ve="3">Icon Phone Font</Str>
+			<Str sr="arg1" ve="3"></Str>
+			<Int sr="arg2">
+				<var>%SizeTextTitle</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">Tasker/fonts/MaterialIcons-Regular.ttf</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements15" ve="3">
+			<flags>4</flags>
+			<geom>0,170,70,60,0,280,69,60</geom>
+			<Str sr="arg0" ve="3">Icon Home Font</Str>
+			<Str sr="arg1" ve="3"></Str>
+			<Int sr="arg2">
+				<var>%SizeTextTitle</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">Tasker/fonts/MaterialIcons-Regular.ttf</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements16" ve="3">
+			<flags>4</flags>
+			<geom>0,390,70,60,0,280,69,60</geom>
+			<Str sr="arg0" ve="3">Icon Contact Font</Str>
+			<Str sr="arg1" ve="3"></Str>
+			<Int sr="arg2">
+				<var>%SizeTextTitle</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">Tasker/fonts/MaterialIcons-Regular.ttf</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements17" ve="3">
+			<flags>4</flags>
+			<geom>0,500,70,60,0,280,69,60</geom>
+			<Str sr="arg0" ve="3">Icon Sms Font</Str>
+			<Str sr="arg1" ve="3"></Str>
+			<Int sr="arg2">
+				<var>%SizeTextTitle</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">Tasker/fonts/MaterialIcons-Regular.ttf</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements18" ve="3">
+			<flags>4</flags>
+			<geom>0,610,70,60,0,280,69,60</geom>
+			<Str sr="arg0" ve="3">Icon Root Font</Str>
+			<Str sr="arg1" ve="3"></Str>
+			<Int sr="arg2">
+				<var>%SizeTextTitle</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">Tasker/fonts/MaterialIcons-Regular.ttf</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements19" ve="3">
+			<flags>4</flags>
+			<geom>0,1010,70,60,0,280,69,60</geom>
+			<Str sr="arg0" ve="3">Icon About Font</Str>
+			<Str sr="arg1" ve="3"></Str>
+			<Int sr="arg2">
+				<var>%SizeTextTitle</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">Tasker/fonts/MaterialIcons-Regular.ttf</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<RectElement sr="elements2">
+			<flags>4</flags>
+			<geom>0,0,426,140,51,122,616,150</geom>
+			<Str sr="arg0" ve="3">HeaderShadow1111</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FF212121</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements20" ve="3">
+			<flags>4</flags>
+			<geom>0,1110,70,60,0,280,69,60</geom>
+			<Str sr="arg0" ve="3">Icon Exit Font</Str>
+			<Str sr="arg1" ve="3"></Str>
+			<Int sr="arg2">
+				<var>%SizeTextTitle</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">Tasker/fonts/MaterialIcons-Regular.ttf</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<RectElement sr="elements3">
+			<clickTask>454</clickTask>
+			<flags>4</flags>
+			<geom>420,0,300,1210,458,0,219,680</geom>
+			<strokeTask>455</strokeTask>
+			<Str sr="arg0" ve="3">Transparent</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#00333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<StrokeFilter sr="filter2">
+				<dir>Left</dir>
+			</StrokeFilter>
+		</RectElement>
+		<RectElement sr="elements4">
+			<flags>4</flags>
+			<geom>0,0,426,130,0,0,441,321</geom>
+			<Str sr="arg0" ve="3">Menu Top Background</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">%DarkPrimaryColor</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements5" ve="3">
+			<clickTask>524</clickTask>
+			<flags>4</flags>
+			<geom>70,390,349,60,95,337,409,63</geom>
+			<Str sr="arg0" ve="3">Text Manage List</Str>
+			<Str sr="arg1" ve="3">%MenuIfListSet</Str>
+			<Int sr="arg2">
+				<var>%SizeTextSection</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">%FontMenu</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements6" ve="3">
+			<clickTask>525</clickTask>
+			<flags>4</flags>
+			<geom>70,170,349,60,95,337,409,63</geom>
+			<Str sr="arg0" ve="3">Text Home</Str>
+			<Str sr="arg1" ve="3">Home</Str>
+			<Int sr="arg2">
+				<var>%SizeTextSection</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">%FontMenu</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements7" ve="3">
+			<clickTask>545</clickTask>
+			<flags>4</flags>
+			<geom>70,1110,349,60,177,855,300,225</geom>
+			<Str sr="arg0" ve="3">Text Exit</Str>
+			<Str sr="arg1" ve="3">Exit</Str>
+			<Int sr="arg2">
+				<var>%SizeTextSection</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">%FontMenu</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<RectElement sr="elements8">
+			<flags>4</flags>
+			<geom>0,990,424,1,0,170,680,15</geom>
+			<Str sr="arg0" ve="3">Separate Line1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#4C000000</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements9" ve="3">
+			<clickTask>550</clickTask>
+			<flags>4</flags>
+			<geom>70,280,349,60,95,337,409,63</geom>
+			<Str sr="arg0" ve="3">Text Settings</Str>
+			<Str sr="arg1" ve="3">Call Forward Settings</Str>
+			<Int sr="arg2">
+				<var>%SizeTextSection</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">%FontMenu</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#0037474F</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Menu</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2">
+				<uri>content://com.android.externalstorage.documents/document/primary%3ATasker%2Fbaud-ressources%2Fdm-logo.png</uri>
+			</Img>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task448">
+		<cdate>1476713788860</cdate>
+		<edate>1476713788860</edate>
+		<id>448</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Material3LinesMenu</Str>
+		</Action>
+	</Task>
+	<Task sr="task454">
+		<cdate>1476707994101</cdate>
+		<edate>1476707994101</edate>
+		<id>454</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - 3 LINES MENU</Str>
+		</Action>
+	</Task>
+	<Task sr="task455">
+		<cdate>1476713822117</cdate>
+		<edate>1476713822117</edate>
+		<id>455</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Material3LinesMenu</Str>
+		</Action>
+	</Task>
+	<Task sr="task524">
+		<cdate>1477032837495</cdate>
+		<edate>1477032837495</edate>
+		<id>524</id>
+		<pri>108</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">DutyManager - MANAGE LIST</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">DutyManager - 3 LINES MENU</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - HOW TO</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - ACCESSIBILITY</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - MAIN</Str>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - FORWARD SETTINGS</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - TEXT MESSAGE</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - ROOT SETTINGS</Str>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - ABOUT</Str>
+		</Action>
+	</Task>
+	<Task sr="task525">
+		<cdate>1477512999943</cdate>
+		<edate>1477512999943</edate>
+		<id>525</id>
+		<pri>124</pri>
+		<Action sr="act0" ve="7">
+			<code>46</code>
+			<Str sr="arg0" ve="3">DutyManager - MAIN</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DutyManager</lhs>
+					<op>2</op>
+					<rhs>OFF</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - FORWARD SETTINGS</Str>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - MANAGE LIST</Str>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - TEXT MESSAGE</Str>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - ROOT SETTINGS</Str>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - ABOUT</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<label>Move toggle</label>
+			<Str sr="arg0" ve="3">DutyManager - Element Toggle</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">DutyManager - MAIN</Str>
+			<Str sr="arg3" ve="3">MaterialToggle1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DutyManagerVersion</lhs>
+					<op>3</op>
+					<rhs>*FREE*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">DutyManager - MAIN</Str>
+			<Str sr="arg1" ve="3">Text - Free Version</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">DutyManager - MAIN</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">DutyManager - 3 LINES MENU</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - HOW TO</Str>
+		</Action>
+	</Task>
+	<Task sr="task545">
+		<cdate>1476990858407</cdate>
+		<edate>1476990858407</edate>
+		<id>545</id>
+		<pri>120</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - 3 LINES MENU</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - ACCESSIBILITY</Str>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%filexist</lhs>
+					<op>2</op>
+					<rhs>file</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>406</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">DutyManager/Contactlist.dat.bak</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>404</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">DutyManager/Contactlist.dat</Str>
+			<Str sr="arg1" ve="3">DutyManager/Contactlist.dat.bak</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>406</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">DutyManager/Contactlist.dat</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>410</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">DutyManager/Contactlist.dat</Str>
+			<Str sr="arg1" ve="3">%Contactlist()</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - HOW TO</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - MAIN</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - FORWARD SETTINGS</Str>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - MANAGE LIST</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - TEXT MESSAGE</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - ROOT SETTINGS</Str>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - ABOUT</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>342</code>
+			<se>false</se>
+			<Int sr="arg0" val="4"/>
+			<Str sr="arg1" ve="3">DutyManager/Contactlist.dat</Str>
+			<Str sr="arg2" ve="3">%filexist</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task550">
+		<cdate>1477339179038</cdate>
+		<edate>1477339179038</edate>
+		<id>550</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>46</code>
+			<Str sr="arg0" ve="3">DutyManager - FORWARD SETTINGS</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PersistentNotification</lhs>
+					<op>2</op>
+					<rhs>OFF</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - TEXT MESSAGE</Str>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - ROOT SETTINGS</Str>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - ABOUT</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<label>Move toggle</label>
+			<Str sr="arg0" ve="3">DutyManager - Element Toggle</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">DutyManager - FORWARD SETTINGS</Str>
+			<Str sr="arg3" ve="3">MaterialToggle3</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">DutyManager - FORWARD SETTINGS</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">DutyManager - 3 LINES MENU</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - ACCESSIBILITY</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - HOW TO</Str>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - MAIN</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - MANAGE LIST</Str>
+		</Action>
+	</Task>
+	<Task sr="task553">
+		<cdate>1477339179038</cdate>
+		<edate>1477339179038</edate>
+		<id>553</id>
+		<pri>116</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">DutyManager - ABOUT</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">DutyManager - 3 LINES MENU</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - ACCESSIBILITY</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - HOW TO</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - MAIN</Str>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - MANAGE LIST</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - FORWARD SETTINGS</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - ROOT SETTINGS</Str>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - TEXT MESSAGE</Str>
+		</Action>
+	</Task>
+	<Task sr="task554">
+		<cdate>1477339179038</cdate>
+		<edate>1477339179038</edate>
+		<id>554</id>
+		<pri>112</pri>
+		<Action sr="act0" ve="7">
+			<code>46</code>
+			<Str sr="arg0" ve="3">DutyManager - TEXT MESSAGE</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%TextMessageStatus</lhs>
+					<op>2</op>
+					<rhs>OFF</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - MAIN</Str>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - MANAGE LIST</Str>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - FORWARD SETTINGS</Str>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - ROOT SETTINGS</Str>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - ABOUT</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<label>Move toggle</label>
+			<Str sr="arg0" ve="3">DutyManager - Element Toggle</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">DutyManager - TEXT MESSAGE</Str>
+			<Str sr="arg3" ve="3">MaterialToggle2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>345</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">%TextMessage</Str>
+			<Str sr="arg2" ve="3">%countcharacter</Str>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%countcharactertotal</Str>
+			<Str sr="arg1" ve="3">140-%countcharacter</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">DutyManager - TEXT MESSAGE</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">DutyManager - 3 LINES MENU</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - HOW TO</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - ACCESSIBILITY</Str>
+		</Action>
+	</Task>
+	<Task sr="task556">
+		<cdate>1482844809591</cdate>
+		<edate>1482844809591</edate>
+		<id>556</id>
+		<pri>116</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">DutyManager - ROOT SETTINGS</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">DutyManager - 3 LINES MENU</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - HOW TO</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - ACCESSIBILITY</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - MAIN</Str>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - MANAGE LIST</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - FORWARD SETTINGS</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - TEXT MESSAGE</Str>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">DutyManager - ABOUT</Str>
+		</Action>
+	</Task>
+</TaskerData>

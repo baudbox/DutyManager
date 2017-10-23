@@ -1,0 +1,395 @@
+<TaskerData sr="" dvi="1" tv="5.0u6m">
+	<Task sr="task446">
+		<cdate>1433782534629</cdate>
+		<edate>1503519089822</edate>
+		<id>446</id>
+		<nme>DutyManager - Call Forwarding Task</nme>
+		<pri>100</pri>
+		<stayawake>true</stayawake>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%countloop</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>300</code>
+			<label>Start Task</label>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>410</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">DutyManager/ussd_win.txt</Str>
+			<Str sr="arg1" ve="3">Voice: +33619634437</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>417</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">DutyManager/ussd_win.txt</Str>
+			<Str sr="arg1" ve="3">%ussd</Str>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%ussd</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Debug</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>598</code>
+			<label>Match the only 5 latest digits</label>
+			<Str sr="arg0" ve="3">%ussd</Str>
+			<Str sr="arg1" ve="3">\d{5}(?!\d)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%result</Str>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3">%res </Str>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%Contactnumber</Str>
+			<Str sr="arg1" ve="3">\d{5}(?!\d)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%resultcontactnumber</Str>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3">%res </Str>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Ussd win: %result()
+
+Contact number lookup: %resultcontactnumber()</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Debug</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>410</code>
+			<label>Log file</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">DutyManager/CallForwardingTask.log</Str>
+			<Str sr="arg1" ve="3">%TIMES - Ussd win: %result()
+%TIMES - Contact lookup: %resultcontactnumber()</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DebugLogFile</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>37</code>
+			<label>Check win</label>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%result1</lhs>
+					<op>2</op>
+					<rhs>%resultcontactnumber1</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%result2</lhs>
+					<op>2</op>
+					<rhs>%resultcontactnumber1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Check done
+Call forwarding is correctly set to Contact:
+%Contactname</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Debug</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>41</code>
+			<label>Send SMS</label>
+			<Str sr="arg0" ve="3">%Contactnumber</Str>
+			<Str sr="arg1" ve="3">%TextMessage</Str>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%TextMessageStatus</lhs>
+					<op>2</op>
+					<rhs>ON</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Processing forward call setup ...</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Debug</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Sending SMS to %PNUM
+Message :%TextMessage</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%Debug</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%TextMessageStatus</lhs>
+					<op>2</op>
+					<rhs>ON</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>410</code>
+			<label>Log file</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">DutyManager/CallForwardingTask.log</Str>
+			<Str sr="arg1" ve="3">%TIMES - match - %resultcontactnumber1 = %result1</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DebugLogFile</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%countloop</Str>
+			<Str sr="arg1" ve="3">%countloop+1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">KO not match</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Debug</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>410</code>
+			<label>Log file</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">DutyManager/CallForwardingTask.log</Str>
+			<Str sr="arg1" ve="3">%TIMES - not match - loop n°%countloop -  %resultcontactnumber1 != %result1</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DebugLogFile</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>135</code>
+			<label>Recheck</label>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="9"/>
+			<Str sr="arg2" ve="3">Start Task</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%countloop</lhs>
+					<op>6</op>
+					<rhs>3</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>38</code>
+			<label>Exit loop</label>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%IsRooted</lhs>
+					<op>2</op>
+					<rhs>YES</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">You're root. Closing windows...</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Debug</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%dial2activeforwarding</Str>
+			<Str sr="arg1" ve="3">%UssdCode2ActivateForward1%Contactnumber%UssdCode2ActivateForward2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>123</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">input keyevent 23</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="100"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>123</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">input keyevent 66</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Accessibility service is OFF. DutyManager is unable to verify if forward is active or not. Please consider to enable it.</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Debug</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>410</code>
+			<label>Log file</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">DutyManager/CallForwardingTask.log</Str>
+			<Str sr="arg1" ve="3">%TIMES - Accessibility Service %AccessibilityService</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DebugLogFile</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>90</code>
+			<label>Active unconditionally forward</label>
+			<Str sr="arg0" ve="3">%dial2activeforwarding</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AccessibilityService</lhs>
+					<op>2</op>
+					<rhs>YES</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="15"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>90</code>
+			<label>Check unconditionally forward setup</label>
+			<Str sr="arg0" ve="3">%UssdCode2CheckForward</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="15"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ussd</Str>
+			<Str sr="arg1" ve="3">%WIN</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_device_access_ring_volume</nme>
+		</Img>
+	</Task>
+</TaskerData>

@@ -1,0 +1,883 @@
+<TaskerData sr="" dvi="1" tv="5.0u6m">
+	<dmetric>720.0,1198.0</dmetric>
+	<Scene sr="sceneDutyManager - FORWARD SETTINGS">
+		<cdate>1421116300013</cdate>
+		<edate>1485244623080</edate>
+		<gridSize>10</gridSize>
+		<heightLand>680</heightLand>
+		<heightPort>1210</heightPort>
+		<nme>DutyManager - FORWARD SETTINGS</nme>
+		<widthLand>680</widthLand>
+		<widthPort>720</widthPort>
+		<RectElement sr="elements0">
+			<flags>4</flags>
+			<geom>0,10,720,140,51,122,616,150</geom>
+			<Str sr="arg0" ve="3">HeaderShadow111</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FF212121</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements1">
+			<flags>4</flags>
+			<geom>0,0,720,130,0,0,680,252</geom>
+			<Str sr="arg0" ve="3">Header Background1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">%DarkPrimaryColor</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements10" ve="3">
+			<flags>4</flags>
+			<geom>190,340,329,90,95,283,373,67</geom>
+			<Str sr="arg0" ve="3">Label: phone_number</Str>
+			<Str sr="arg1" ve="3">phone_number</Str>
+			<Int sr="arg2">
+				<var>%SizeTextSection</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">%FontMenu</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<RectElement sr="elements11">
+			<flags>4</flags>
+			<geom>30,410,129,2,350,280,110,2</geom>
+			<Str sr="arg0" ve="3">Underline Ussd Code Forward</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#3f51b5</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements12">
+			<flags>4</flags>
+			<geom>300,680,129,2,350,280,110,2</geom>
+			<Str sr="arg0" ve="3">Underline Ussd Code Check</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#3f51b5</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements13">
+			<flags>4</flags>
+			<geom>10,750,699,100,68,406,583,116</geom>
+			<Str sr="arg0" ve="3">Shadow Ussd Code Cancel</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">%DarkPrimaryColor</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="6"/>
+			<Int sr="arg7" val="2"/>
+		</RectElement>
+		<ImageElement sr="elements14" ve="2">
+			<clickTask>475</clickTask>
+			<flags>4</flags>
+			<geom>20,20,60,60,8,340,70,78</geom>
+			<Str sr="arg0" ve="3">Icon Back</Str>
+			<Img sr="arg1" ve="2">
+				<nme>hd_ab_navigation_back</nme>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<TextElement sr="elements15" ve="3">
+			<flags>4</flags>
+			<geom>10,740,699,100,95,330,409,93</geom>
+			<Str sr="arg0" ve="3">Label: Code for Cancel</Str>
+			<Str sr="arg1" ve="3">&lt;b&gt;CANCEL FORWARD&lt;/b&gt;&lt;br/&gt;
+Put the dedicated service code for deactivating unconditionally forwarding call</Str>
+			<Int sr="arg2">
+				<var>%SizeTextDescription</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">%FontDescription</Str>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="2"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%FieldDescriptionColor</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<EditTextElement sr="elements16" ve="3">
+			<flags>4</flags>
+			<geom>10,880,700,90,522,308,146,67</geom>
+			<valueselectedTask>479</valueselectedTask>
+			<Str sr="arg0" ve="3">TextEdit: %UssdCode2CancelForward</Str>
+			<Str sr="arg1" ve="3">%UssdCode2CancelForward</Str>
+			<Int sr="arg2">
+				<var>%SizeTextSection</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">%FontMenu</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1000"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%FieldColor</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%PrimaryColor</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<RectElement sr="elements17">
+			<flags>4</flags>
+			<geom>300,950,130,2,350,280,110,2</geom>
+			<Str sr="arg0" ve="3">Underline Ussd Code Cancel</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#3f51b5</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<EditTextElement sr="elements18" ve="3">
+			<flags>4</flags>
+			<geom>530,340,179,90,522,308,146,67</geom>
+			<valueselectedTask>559</valueselectedTask>
+			<Str sr="arg0" ve="3">TextEdit: %UssdCode2ActivateForward2</Str>
+			<Str sr="arg1" ve="3">%UssdCode2ActivateForward2</Str>
+			<Int sr="arg2">
+				<var>%SizeTextSection</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">%FontMenu</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1000"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%FieldColor</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%PrimaryColor</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<RectElement sr="elements19">
+			<flags>4</flags>
+			<geom>560,410,119,2,350,280,110,2</geom>
+			<Str sr="arg0" ve="3">Underline Ussd Code Forward2</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#3f51b5</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>90,0,609,90,80,63,598,139</geom>
+			<Str sr="arg0" ve="3">Header Main Title1</Str>
+			<Str sr="arg1" ve="3">&lt;b&gt;FORWARD SETTINGS&lt;/b&gt;</Str>
+			<Int sr="arg2">
+				<var>%SizeTextTitle</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3">%FontTitle</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<RectElement sr="elements20">
+			<flags>4</flags>
+			<geom>0,720,720,1,0,170,680,15</geom>
+			<Str sr="arg0" ve="3">Separate Line2</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements21">
+			<flags>4</flags>
+			<geom>0,450,720,1,0,170,680,15</geom>
+			<Str sr="arg0" ve="3">Separate Line1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements22">
+			<flags>4</flags>
+			<geom>0,990,720,1,0,170,680,15</geom>
+			<Str sr="arg0" ve="3">Separate Line3</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements23" ve="3">
+			<flags>4</flags>
+			<geom>0,1010,720,100,95,330,409,93</geom>
+			<Str sr="arg0" ve="3">Label: Enable Notif</Str>
+			<Str sr="arg1" ve="3">&lt;b&gt;NOTIFICATION STATUS&lt;/b&gt;&lt;br/&gt;
+Enable persistent notification when duty schedule is triggered</Str>
+			<Int sr="arg2">
+				<var>%SizeTextDescription</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">%FontDescription</Str>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="2"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%FieldDescriptionColor</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<RectElement sr="elements24">
+			<flags>4</flags>
+			<geom>630,1040,70,30,371,390,81,31</geom>
+			<Str sr="arg0" ve="3">MaterialToggle3 Bar</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">%AccentColorLight</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<OvalElement sr="elements25">
+			<clickTask>536</clickTask>
+			<flags>4</flags>
+			<geom>660,1035,40,40,415,378,37,37</geom>
+			<Str sr="arg0" ve="3">MaterialToggle3 Dot</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">%AccentColor</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+		</OvalElement>
+		<RectElement sr="elements3">
+			<clickTask>495</clickTask>
+			<flags>4</flags>
+			<geom>10,0,79,120,17,69,62,63</geom>
+			<Str sr="arg0" ve="3">3 Bar Menu1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#00607D8B</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<EditTextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>10,340,169,90,522,308,146,67</geom>
+			<valueselectedTask>496</valueselectedTask>
+			<Str sr="arg0" ve="3">TextEdit: %UssdCode2ActivateForward1</Str>
+			<Str sr="arg1" ve="3">%UssdCode2ActivateForward1</Str>
+			<Int sr="arg2">
+				<var>%SizeTextSection</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">%FontMenu</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1000"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%FieldColor</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%PrimaryColor</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<RectElement sr="elements5">
+			<flags>4</flags>
+			<geom>10,160,699,150,68,406,583,116</geom>
+			<Str sr="arg0" ve="3">Shadow Ussd Code Forward</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">%DarkPrimaryColor</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="6"/>
+			<Int sr="arg7" val="2"/>
+		</RectElement>
+		<TextElement sr="elements6" ve="3">
+			<flags>4</flags>
+			<geom>10,150,699,150,95,330,409,93</geom>
+			<Str sr="arg0" ve="3">Label: Activate forward</Str>
+			<Str sr="arg1" ve="3">&lt;b&gt;ACTIVATE FORWARD&lt;/b&gt;&lt;br/&gt;
+Put in the field below, the dedicated service code for activating unconditionally forward for all calls&lt;br/&gt;
+Example: *21*+33687272643#</Str>
+			<Int sr="arg2">
+				<var>%SizeTextDescription</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">%FontDescription</Str>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="2"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%FieldDescriptionColor</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<EditTextElement sr="elements7" ve="3">
+			<flags>4</flags>
+			<geom>10,610,700,90,522,308,146,67</geom>
+			<valueselectedTask>528</valueselectedTask>
+			<Str sr="arg0" ve="3">TextEdit: %UssdCode2CheckForward</Str>
+			<Str sr="arg1" ve="3">%UssdCode2CheckForward</Str>
+			<Int sr="arg2">
+				<var>%SizeTextSection</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">%FontMenu</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1000"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%FieldColor</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%PrimaryColor</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<RectElement sr="elements8">
+			<flags>4</flags>
+			<geom>10,480,699,100,68,406,583,116</geom>
+			<Str sr="arg0" ve="3">Shadow Ussd Code Check</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">%DarkPrimaryColor</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="6"/>
+			<Int sr="arg7" val="2"/>
+		</RectElement>
+		<TextElement sr="elements9" ve="3">
+			<flags>4</flags>
+			<geom>10,470,700,100,95,330,409,93</geom>
+			<Str sr="arg0" ve="3">Label: Code for checking forward service status</Str>
+			<Str sr="arg1" ve="3">&lt;b&gt;CHECK STATUS&lt;/b&gt;&lt;br/&gt;
+Put the dedicated service code for checking unconditionally forward status</Str>
+			<Int sr="arg2">
+				<var>%SizeTextDescription</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">%FontDescription</Str>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="2"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%FieldDescriptionColor</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">%BackgroundColor</Str>
+			<Int sr="arg3" val="2"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task475">
+		<cdate>1477557600960</cdate>
+		<edate>1477557600960</edate>
+		<id>475</id>
+		<pri>106</pri>
+		<Action sr="act0" ve="7">
+			<code>46</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">DutyManager - 3 LINES MENU</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%IsRooted</lhs>
+					<op>2</op>
+					<rhs>NO</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">DutyManager - 3 LINES MENU</Str>
+			<Str sr="arg1" ve="3">Text ROOT settings</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="400"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">DutyManager - 3 LINES MENU</Str>
+			<Str sr="arg1" ve="3">Icon Root Font</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="400"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">DutyManager - 3 LINES MENU</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="4"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task479">
+		<cdate>1476992416220</cdate>
+		<edate>1476992416220</edate>
+		<id>479</id>
+		<pri>106</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%UssdCode2CancelForward</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UssdCode2CancelForward</lhs>
+					<op>4</op>
+					<rhs>^%.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Short Code to cancel Forward isn't set</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Set as %UssdCode2CancelForward</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Debug</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task495">
+		<cdate>1476707534914</cdate>
+		<edate>1476707534914</edate>
+		<id>495</id>
+		<pri>106</pri>
+		<Action sr="act0" ve="7">
+			<code>46</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">DutyManager - 3 LINES MENU</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%IsRooted</lhs>
+					<op>2</op>
+					<rhs>NO</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">DutyManager - 3 LINES MENU</Str>
+			<Str sr="arg1" ve="3">Text ROOT settings</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="400"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">DutyManager - 3 LINES MENU</Str>
+			<Str sr="arg1" ve="3">Icon Root Font</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="400"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">DutyManager - 3 LINES MENU</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="4"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task496">
+		<cdate>1476992416220</cdate>
+		<edate>1476992416220</edate>
+		<id>496</id>
+		<pri>114</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%UssdCode2ActivateForward1</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UssdCode2ActivateForward1</lhs>
+					<op>4</op>
+					<rhs>^%.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Short Code to activate Forward isn't set</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Set as %UssdCode2ActivateForward1</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Debug</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task528">
+		<cdate>1476992416220</cdate>
+		<edate>1476992416220</edate>
+		<id>528</id>
+		<pri>106</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%UssdCode2CheckForward</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UssdCode2CheckForward</lhs>
+					<op>4</op>
+					<rhs>^%.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Short Code to check Forward isn't set</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Set as %UssdCode2CheckForward</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Debug</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task536">
+		<cdate>1476723732083</cdate>
+		<edate>1476723732083</edate>
+		<id>536</id>
+		<pri>106</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<label>Move toggle</label>
+			<Str sr="arg0" ve="3">DutyManager - Element Toggle</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">DutyManager - FORWARD SETTINGS</Str>
+			<Str sr="arg3" ve="3">MaterialToggle3</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PersistentNotification</lhs>
+					<op>2</op>
+					<rhs>ON</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">DutyManager Status</Str>
+			<Str sr="arg1" ve="3">%DutyManager | %ActiveSchedule to %Contactname_uppercase</Str>
+			<Img sr="arg2" ve="2">
+				<nme>hd_content_event</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PersistentNotification</Str>
+			<Str sr="arg1" ve="3">OFF</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>779</code>
+			<Str sr="arg0" ve="3">DutyManager Status</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PersistentNotification</lhs>
+					<op>2</op>
+					<rhs>OFF</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PersistentNotification</Str>
+			<Str sr="arg1" ve="3">ON</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Contactname</lhs>
+					<op>12</op>
+					<rhs>ON</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>596</code>
+			<Str sr="arg0" ve="3">%Contactname</Str>
+			<Int sr="arg1" val="30"/>
+			<Str sr="arg2" ve="3">%Contactname_uppercase</Str>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Contactname_uppercase</Str>
+			<Str sr="arg1" ve="3">nobody yet</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task559">
+		<cdate>1476992416220</cdate>
+		<edate>1476992416220</edate>
+		<id>559</id>
+		<pri>114</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%UssdCode2ActivateForward2</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UssdCode2ActivateForward2</lhs>
+					<op>4</op>
+					<rhs>^%.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Ussd Code to activate Forward is not set but can be empty</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Set as %UssdCode2ActivateForward2</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Debug</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+</TaskerData>

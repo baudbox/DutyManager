@@ -1,0 +1,49 @@
+<TaskerData sr="" dvi="1" tv="5.0u6m">
+	<Profile sr="prof456" ve="2">
+		<cdate>1483721645018</cdate>
+		<clp>true</clp>
+		<edate>1508790042921</edate>
+		<id>456</id>
+		<limit>true</limit>
+		<mid0>481</mid0>
+		<nme>DutyManager - Battery Overheating</nme>
+		<Event sr="con0" ve="2">
+			<code>206</code>
+			<pri>0</pri>
+		</Event>
+	</Profile>
+	<Task sr="task481">
+		<cdate>1483721665264</cdate>
+		<edate>1484028191701</edate>
+		<id>481</id>
+		<nme>DutyManager - Battery Overheating</nme>
+		<Action sr="act0" ve="7">
+			<code>410</code>
+			<label>Log file</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">DutyManager/CallForwardingTask.log</Str>
+			<Str sr="arg1" ve="3">%TIMES - Battery overheating (%BATT%)</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DebugLogFile</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>41</code>
+			<label>Sms battery overheating</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%Contactnumber</Str>
+			<Str sr="arg1" ve="3">DutyManager message :
+WARNING Phone battery overheating (%BATT%). You should check what's going on.</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_device_access_battery</nme>
+		</Img>
+	</Task>
+</TaskerData>
