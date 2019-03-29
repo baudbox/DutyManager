@@ -6,10 +6,14 @@ You can either import the global project from xml file under projects folder ...
 
 Published sources
 ```
-Juillet 31 (1.0) 
+July 31 (1.0) 
 [Out of beta] With Tasker 5.x - minimal Sdk version 21+
 ```
 
-Check the full version
+```
+March 20 
+[Deprecated] Due to Google policies, DutyManager has been removed from Play Store as "Call Log or SMS data" permissions were used to divert calls. Shame !
+```
+As for information and fun, here is the apk file attached
 
 [![N|DutyManager](https://upload.wikimedia.org/wikipedia/commons/c/cd/Get_it_on_Google_play.svg)](https://play.google.com/store/apps/details?id=fr.baudbox.apps.dutymanager)
