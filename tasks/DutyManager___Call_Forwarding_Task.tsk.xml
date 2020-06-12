@@ -22,7 +22,7 @@
 			<code>410</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">DutyManager/ussd_win.txt</Str>
-			<Str sr="arg1" ve="3">Voice: +33619634437</Str>
+			<Str sr="arg1" ve="3">Voice: +33619xxxxxx</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="1"/>
 		</Action>
